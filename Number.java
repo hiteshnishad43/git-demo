@@ -2,7 +2,7 @@ import java.util.*;
 class Numbers {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        int t;
+        int t, tot;
         int a[],b[];
 		int i,j,sum=0;
         t=sc.nextInt();
@@ -17,5 +17,7 @@ class Numbers {
 			System.out.println(sum);
 			j++;
 		}
+	    tot=sum;
+	    System.out.println(tot);
     }
 }
